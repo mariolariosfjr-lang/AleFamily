@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <defs>
+    <radialGradient gradientUnits="userSpaceOnUse" cx="130.017" cy="180.803" r="25.592" id="gradient-0">
+      <stop offset="0" style="stop-color: rgb(193, 255, 0)"/>
+      <stop offset="1" style="stop-color: rgb(34.665% 58.621% 0%)"/>
+    </radialGradient>
+    <radialGradient gradientUnits="userSpaceOnUse" cx="259.113" cy="375.875" r="46.48" id="gradient-1">
+      <stop offset="0" style="stop-color: rgb(56, 255, 0)"/>
+      <stop offset="1" style="stop-color: rgb(0% 58.107% 0%)"/>
+    </radialGradient>
+  </defs>
+  <text style="fill: url(&quot;#gradient-0&quot;); font-family: Arial, sans-serif; font-size: 28px; white-space: pre;" transform="matrix(4.853119, 0, 0, 5.184291, -413.12973, -742.605713)" x="104.425" y="191.365">ALE</text>
+  <text style="fill: url(&quot;#gradient-1&quot;); font-family: Arial, sans-serif; font-size: 28px; font-style: italic; white-space: pre;" transform="matrix(2.520182, 0, 0, 1.675684, -442.27124, -332.645264)" x="212.633" y="386.461">FAMILY</text>
+</svg>
