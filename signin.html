@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AleFamily</title>
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', Arial, sans-serif;
+            font-weight: 700;
+            background-color: #013200;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        h1 {
+            color: #ffffff;
+            font-size: 3rem;
+        }
+
+        button {
+  /* Smooth corners */
+  border-radius: 8px;
+  
+  /* Bright "green light" background and crisp text */
+  background-color: #00FF66; 
+  color: #002200;
+  font-weight: bold;
+  
+  /* The "Green Light" glow effect */
+  border: 1px solid #33FF88;
+  box-shadow: 0 0 15px rgba(0, 255, 102, 0.6);
+  
+  /* Sizing and cursor */
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  
+  /* Smooth hover animation */
+  transition: all 0.2s ease-in-out;
+}
+
+/* Make it shine brighter when you hover over it */
+button:hover {
+  background-color: #33FF88;
+  box-shadow: 0 0 25px rgba(0, 255, 102, 0.9);
+}
+ input {
+   
+  /* Bright "green light" background and crisp text */
+  background-color: #00FF66; 
+  color: #002200;
+  font-weight: bold;
+  
+  /* The "Green Light" glow effect */
+  border: 1px solid #33FF88;
+  box-shadow: 0 0 15px rgba(0, 255, 102, 0.6);
+  
+  /* Sizing and cursor */
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  
+  /* Smooth hover animation */
+  transition: all 0.2s ease-in-out;
+ }
+      
+ }
+    </style>
+</head>
+<body>
+    <h1>Login</h1>
+  <div class="login-container">
+        <h2>Welcome Back</h2>
+        <form action="/login-endpoint" method="POST">
+            
+            <!-- Email Field -->
+            <div class="input-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required autocomplete="username">
+            </div>
+            
+            <!-- Password Field -->
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required autocomplete="current-password">
+            </div>
+            
+            <!-- Remember Me & Forgot Password -->
+            <div class="options-row">
+                <label>
+                    <input type="checkbox" name="remember"> Remember me
+                </label>
+                <a href="#">Forgot Password?</a>
+            </div>
+            
+            <!-- Submit Button -->
+            <button type="submit" class="btn-submit">Log In</button>
+            
+        </form>
+        
+        <!-- Registration Link -->
+        <div class="signup-link">
+            Don't have an account? <a href="#">Sign up</a>
+        </div>
+  </div>
+  
+</body>
+</html>
